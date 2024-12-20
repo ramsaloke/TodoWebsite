@@ -35,7 +35,7 @@ const [todos , setTodos] = useState<Todo[]>(()=>{
 
 const handleAddTodo = (task:string) => {
   if (task.trim() === "") {
-    // Optionally handle the case where the task is empty, e.g., show an error message.
+  
     console.warn("Cannot add an empty task.");
     return;
   }
